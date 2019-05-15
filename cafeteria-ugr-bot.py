@@ -44,7 +44,7 @@ def farmacia(bot, update):
 def main():
 	token_file = open("token.txt", "r")
 
-	token = Updater(token_file.read())
+	token = Updater(token_file.read(), use_context=True)
 	dp = token.dispatcher
 
 	token_file.close()
