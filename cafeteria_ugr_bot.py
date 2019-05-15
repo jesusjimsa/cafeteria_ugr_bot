@@ -46,6 +46,8 @@ def main():
 
 	token = Updater(token_file.read())
 	dp = token.dispatcher
+
+	token_file.close()
 	
 	dp.add_handler(CommandHandler('bbaa',bbaa))
 	dp.add_handler(CommandHandler('fyl',fyl))
