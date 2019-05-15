@@ -166,6 +166,7 @@ dmypy.json
 *.wps
 
 ### VisualStudioCode ###
+.vscode/
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
