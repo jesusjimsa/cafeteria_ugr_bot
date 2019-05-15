@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 # -*- coding: utf-8 -*-
 # Bot para obtener el menú de las cafeterías de la UGR
 # que estén relacionadas con Grupo Gómez Moreno
