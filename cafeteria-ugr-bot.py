@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # Bot para obtener el menú de las cafeterías de la UGR
 # que estén relacionadas con Grupo Gómez Moreno
@@ -45,7 +45,7 @@ def farmacia(bot, update):
 def main():
 	token_file = open("token.txt", "r")
 
-	token = Updater(token_file.read(), use_context=True)
+	token = Updater(token_file.read())
 	dp = token.dispatcher
 
 	token_file.close()
